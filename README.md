@@ -61,4 +61,27 @@ This folder is a git repo. Commit whenever you like:
 git add -A && git commit -m "Day N"
 ```
 
-Add a private remote (GitHub/GitLab) and `git push` for off-machine backup.
+`git push` backs it up to GitHub and publishes the site (see below).
+
+## Publishing
+
+Every push to `main` rebuilds the public site with [Quartz](https://quartz.jzhao.xyz)
+and deploys it to GitHub Pages: <https://olidotjpeg.github.io/inktober/>
+
+- **Published:** `entries/`, `_prompts/`, `_attachments/`. Entries go live as soon
+  as they are pushed, whatever their `status`.
+- **Not published:** `drafts/`, `_templates/`, this README and the Dataview
+  dashboard in `index.md`. The repo itself is public, though, so anything you
+  commit is readable in the source.
+- The site's home page is `.site/home.md`; its entries table is generated from
+  each entry's frontmatter, like the dashboard.
+
+Preview locally before pushing:
+
+```bash
+.site/build.sh --serve   # http://localhost:8080
+```
+
+Everything site-related lives in `.site/` (hidden from Obsidian) and
+`.github/workflows/publish.yml`. To publish another folder, add it to the
+`PUBLISH` list in `.site/build.sh`.

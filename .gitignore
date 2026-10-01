@@ -11,3 +11,6 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Site build (Quartz checkout, node_modules, output)
+.site/.quartz/
