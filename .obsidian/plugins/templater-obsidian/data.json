@@ -1,0 +1,10 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_templates",
+  "trigger_on_file_creation": true,
+  "auto_jump_to_position": true,
+  "enable_folder_templates": true,
+  "folder_templates": [
+    { "folder": "entries/2026", "template": "_templates/daily-entry.md" }
+  ]
+}

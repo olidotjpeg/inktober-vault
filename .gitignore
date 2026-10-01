@@ -1,0 +1,13 @@
+# Obsidian — per-machine UI state (don't version)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
+
+# Obsidian trash & caches
+.trash/
+.obsidian/cache
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini

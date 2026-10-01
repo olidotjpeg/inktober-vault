@@ -1,0 +1,9 @@
+{
+  "renderNullAs": "—",
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "inlineQueryPrefix": "=",
+  "enableInlineDataview": true,
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true
+}
