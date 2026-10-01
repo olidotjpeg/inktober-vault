@@ -29,7 +29,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "olidotjpeg.github.io/inktober",
+    baseUrl: "olidotjpeg.github.io/inktober-vault",
     ignorePatterns: [".obsidian"],
     defaultDateType: "created",
     theme: {

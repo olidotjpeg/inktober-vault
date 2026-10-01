@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [EntryTable()],
   footer: Component.Footer({
     links: {
-      Source: "https://github.com/olidotjpeg/inktober",
+      Source: "https://github.com/olidotjpeg/inktober-vault",
       "Inktober prompts": "https://inktober.substack.com/p/2026-prompt-list",
     },
   }),

@@ -66,7 +66,7 @@ git add -A && git commit -m "Day N"
 ## Publishing
 
 Every push to `main` rebuilds the public site with [Quartz](https://quartz.jzhao.xyz)
-and deploys it to GitHub Pages: <https://olidotjpeg.github.io/inktober/>
+and deploys it to GitHub Pages: <https://olidotjpeg.github.io/inktober-vault/>
 
 - **Published:** `entries/`, `_prompts/`, `_attachments/`. Entries go live as soon
   as they are pushed, whatever their `status`.
